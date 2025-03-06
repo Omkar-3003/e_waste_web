@@ -1,0 +1,147 @@
+/* Wrapper Styling */
+/* Background Image for Full Page */
+.login-register-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background: url("../assets/images/bg_image.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  /* background: url("../assets/images/bg_image.jpg"); */
+  /* margin-top: 5%; */
+  /* margin-left: 10px; */
+  position: relative;
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  transition: all 0.3s ease;
+}
+
+/* Form Box */
+.wrapper .form-box {
+  width: 100%;
+}
+
+/* Form Headings */
+form h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Box */
+form .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  padding: 20px 45px 20px 20px;
+  outline: none;
+}
+
+/* Placeholder Color */
+.input-box input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Input Icons */
+.input-box .icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Remember Me & Forgot Password */
+form .remember-forget {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: -10px 0 20px;
+}
+
+.remember-forget label {
+  display: flex;
+  align-items: center;
+}
+
+.remember-forget label input {
+  accent-color: rgb(0, 0, 0);
+  margin-right: 6px;
+}
+
+.remember-forget a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.remember-forget a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+form button {
+  margin-top: 10px;
+  width: 100%;
+  height: 45px;
+  background: rgb(0, 0, 0);
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #f0f0f0;
+}
+
+/* Register / Login Toggle Button */
+.register-link {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link button {
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.register-link button:hover {
+  color: #000000;
+}
